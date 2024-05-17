@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    margin-top: -39px;
+}
+#imgo {
+    margin: 1px;
+    margin-left: 27px;
+    margin-top: 37px;
+   
+}
+.navigation {
+    float: right;
+    margin: 100px;
+    margin-top: 63px;
+    margin-right: 25px;
+}
+.navigation a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    text-decoration: none;
+    border: 2px solid cornsilk;
+    padding: 10px; 
+}
+
+.navigation a:hover{
+    background-color:teal;
+    color: black;
+    
+}
+.side{
+    /* border: 2px  black; */
+   color: rgb(255, 255, 255);
+    margin: 29px;
+    width: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: left;
+}
+.side h3{
+    margin-bottom: 10px;
+}
+
+.side li{
+    list-style: square;
+    padding: 2px;
+}
+.Login
+{
+    border: 1px solid black;
+    float: right;
+    background-color: bisque;
+    margin-top: -41px;
+    margin-right: 13px;   
+}
+#btn{
+    background-color: blue;
+    width: 100%;
+    color: bisque;
+    border: none;
+    height: 1.5em;
+}
+.Login{
+    text-align: center;
+}
+.container{
+    margin-top: 300px;
+    margin-left: 60px;
+}
+.pbox{
+    border: 2px solid white;
+    float: left;
+    width: 22%;
+    background-color:gainsboro;
+    padding: 5px;
+    height: 13em;
+}
+.pbox h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.pbox p{
+    text-align: justify;
+}
+.pbox a{
+    color: blue;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:47%;
+    height: 2em;
+}
